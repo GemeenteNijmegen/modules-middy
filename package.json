@@ -1,5 +1,5 @@
 {
-  "name": "middy",
+  "name": "@gemeentenijmegen/middy",
   "repository": {
     "type": "git",
     "url": "https://github.com/GemeenteNijmegen/modules-middy.git"
