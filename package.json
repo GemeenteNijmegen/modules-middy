@@ -1,5 +1,5 @@
 {
-  "name": "module-middy",
+  "name": "middy",
   "repository": {
     "type": "git",
     "url": "https://github.com/GemeenteNijmegen/modules-middy.git"
@@ -42,6 +42,14 @@
     "ts-jest": "^29.4.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@gemeentenijmegen/utils": "^0.0.38",
+    "@middy/core": "^6.4.5",
+    "@types/aws-lambda": "^8.10.155",
+    "@types/http-errors": "^2.0.5",
+    "http-errors": "^2.0.0",
+    "zod": "^4.1.11"
   },
   "main": "lib/index.js",
   "license": "EUPL-1.2",
