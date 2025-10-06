@@ -3,7 +3,7 @@ import { GemeenteNijmegenTsPackage } from '@gemeentenijmegen/projen-project-type
 const project = new GemeenteNijmegenTsPackage({
   defaultReleaseBranch: 'main',
   devDeps: ['@gemeentenijmegen/projen-project-type'],
-  name: 'middy',
+  name: '@gemeentenijmegen/middy',
   projenrcTs: true,
   repository: 'https://github.com/GemeenteNijmegen/modules-middy.git',
   deps: [
