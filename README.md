@@ -5,6 +5,12 @@ Usefull links:
 - [Middy](https://middy.js.org/)
 - [An example can be found here](./examples/)
 
+## Installation
+Install from npm.js the package is available under
+```
+@gemeentenijmegen/middy
+```
+
 ## Middlewares
 
 ### Authenticate using API Key
