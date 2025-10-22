@@ -6,7 +6,6 @@ const project = new GemeenteNijmegenTsPackage({
   name: '@gemeentenijmegen/middy',
   projenrcTs: true,
   repository: 'https://github.com/GemeenteNijmegen/modules-middy.git',
-  npmTrustedPublishing: true,
   deps: [
     '@middy/core',
     '@gemeentenijmegen/utils',

@@ -1092,10 +1092,10 @@
     "@eslint/core" "^0.16.0"
     levn "^0.4.1"
 
-"@gemeentenijmegen/projen-project-type@^1.11.6":
-  version "1.11.6"
-  resolved "https://registry.yarnpkg.com/@gemeentenijmegen/projen-project-type/-/projen-project-type-1.11.6.tgz#e8c2854f1fcb5a0a1c24b11c50663b1f21011a03"
-  integrity sha512-4kCWR/duHM3w6dQp62BooHZVsAdN0stlyMc2xJFNDwHeoCusYYRDcE3e1mzyI7zjaWIa2Lz2GdWgBFJdE4aSzQ==
+"@gemeentenijmegen/projen-project-type@^1.11.7":
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/@gemeentenijmegen/projen-project-type/-/projen-project-type-1.11.7.tgz#a433865226ab5198a785c9626082b34933db316d"
+  integrity sha512-7Vr1/+YeeZdyoXuimUvo3vBrj5yhRXiUWUsVnAHxFIc+S344rhC9+TseqVAkjaPZo4tQFsYTdNQ+TzUpN0PTTQ==
 
 "@gemeentenijmegen/utils@^0.0.38":
   version "0.0.38"
