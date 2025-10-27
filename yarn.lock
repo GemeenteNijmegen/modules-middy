@@ -2067,15 +2067,15 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/aws-lambda@^8.10.153":
-  version "8.10.155"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.155.tgz#e5ad5a52dc6b3166722d6c23cdcb197b73d5c897"
-  integrity sha512-wd1XgoL0gy/ybo7WozUKQBd+IOgUkdfG6uUGI0fQOTEq06FBFdO7tmPDSxgjkFkl8GlfApvk5TvqZlAl0g+Lbg==
-
-"@types/aws-lambda@^8.10.156":
+"@types/aws-lambda@*":
   version "8.10.156"
   resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.156.tgz#ea7cd65806d441fcf4afce1738fe786d4bdafb8d"
   integrity sha512-LElQP+QliVWykC7OF8dNr04z++HJCMO2lF7k9HuKoSDARqhcjHq8MzbrRwujCSDeBHIlvaimbuY/tVZL36KXFQ==
+
+"@types/aws-lambda@8.10.145", "@types/aws-lambda@^8.10.153":
+  version "8.10.145"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.145.tgz#b2d31a987f4888e5553ff1819f57cafa475594d9"
+  integrity sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
