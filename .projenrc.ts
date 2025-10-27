@@ -16,9 +16,4 @@ const project = new GemeenteNijmegenTsPackage({
   ],
 });
 
-// Manually add resolutions to package.json / temporarily fix dependency issues
-project.package.addField('resolutions', {
-  '@types/aws-lambda': '8.10.145',
-});
-
 project.synth();
