@@ -15,4 +15,5 @@ const project = new GemeenteNijmegenTsPackage({
     'http-errors',
   ],
 });
+
 project.synth();
