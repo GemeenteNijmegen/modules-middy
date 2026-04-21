@@ -48,7 +48,7 @@ export function validator<T extends ZodObject>(opts: ValidatorOptions<T>): middy
     }
   };
 
-  const onError: middy.MiddlewareFn<T, T> = async (_): Promise<undefined> => {
+  const onError: middy.MiddlewareFn<T, T> = async (): Promise<undefined> => {
     // Do nothing?
   };
 

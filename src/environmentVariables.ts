@@ -5,7 +5,7 @@ export class EnvironmentConfigurationError extends Error { }
 
 export const environmentVariables = (keys: string[]): middy.MiddlewareObj<any, any> => {
 
-  const before: middy.MiddlewareFn<any, any> = async (_) => {
+  const before: middy.MiddlewareFn<any, any> = async () => {
     try {
       existingEnvironmentVariables(keys);
     } catch (error) {
