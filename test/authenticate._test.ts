@@ -20,7 +20,7 @@ Some resources:
 describe('Authenticate', () => {
 
   beforeAll(() => {
-    jest.spyOn(AWS, 'getSecret').mockImplementation((_arn) => {
+    jest.spyOn(AWS, 'getSecret').mockImplementation(() => {
       return Promise.resolve(SECRET);
     });
   });
