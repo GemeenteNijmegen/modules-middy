@@ -25,7 +25,7 @@
     "projen": "projen"
   },
   "devDependencies": {
-    "@gemeentenijmegen/projen-project-type": "^1.12.5",
+    "@gemeentenijmegen/projen-project-type": "^1.12.7",
     "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.12.2",
@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.32.0",
     "jest": "^30.3.0",
     "jest-junit": "^16",
-    "projen": "^0.99.27",
+    "projen": "^0.99.52",
     "ts-jest": "^29.4.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -49,7 +49,7 @@
     "@types/aws-lambda": "^8.10.161",
     "@types/http-errors": "^2.0.5",
     "http-errors": "^2.0.1",
-    "zod": "^4.3.6"
+    "zod": "^4.4.1"
   },
   "main": "lib/index.js",
   "license": "EUPL-1.2",
