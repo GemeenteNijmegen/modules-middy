@@ -7,6 +7,7 @@
   "scripts": {
     "build": "projen build",
     "bump": "projen bump",
+    "bump:releasable-commits": "projen bump:releasable-commits",
     "clobber": "projen clobber",
     "compile": "projen compile",
     "default": "projen default",
@@ -25,31 +26,37 @@
     "projen": "projen"
   },
   "devDependencies": {
-    "@gemeentenijmegen/projen-project-type": "^1.12.7",
+    "@gemeentenijmegen/projen-project-type": "^1.15.0",
     "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.13.3",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "commit-and-tag-version": "^12",
     "constructs": "^10.0.0",
     "eslint": "^9",
-    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-import": "^2.32.0",
-    "jest": "^30.3.0",
-    "jest-junit": "^16",
-    "projen": "^0.99.52",
-    "ts-jest": "^29.4.9",
+    "jest": "^30.4.2",
+    "jest-junit": "^17",
+    "projen": "^0.101.26",
+    "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@gemeentenijmegen/utils": "^0.0.38",
     "@middy/core": "^6.4.5",
-    "@types/aws-lambda": "^8.10.161",
+    "@types/aws-lambda": "^8.10.162",
     "@types/http-errors": "^2.0.5",
     "http-errors": "^2.0.1",
-    "zod": "^4.4.1"
+    "zod": "^4.4.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "ignore"
+    }
   },
   "main": "lib/index.js",
   "license": "EUPL-1.2",
@@ -97,7 +104,7 @@
       "^.+\\.[t]sx?$": [
         "ts-jest",
         {
-          "tsconfig": "tsconfig.dev.json"
+          "tsconfig": "test/tsconfig.json"
         }
       ]
     }
